@@ -1,8 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="114a6a40-7e21-4888-adb8-9853f71fdf97" name="Default Changelist" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="114a6a40-7e21-4888-adb8-9853f71fdf97" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/ForFunSSS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/forfun/ForFun.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/forfun/ForFun.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/forfun/ForFunHR$TreeNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/forfun/ForFunHR$TreeNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/forfun/ForFunHR.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/forfun/ForFunHR.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ForFunHR.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ForFunHR.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,40 +18,6 @@
   </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ForFunHR.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="28" selection-start-line="28" selection-end-line="28" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/ForFun143.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="193">
-              <caret line="20" column="23" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ForFun.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="13" selection-start-column="13" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -55,14 +29,6 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/ForFunHR.java" />
-        <option value="$PROJECT_DIR$/src/ForFun143.java" />
-      </list>
-    </option>
-  </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
@@ -70,30 +36,10 @@
     <option name="height" value="1056" />
   </component>
   <component name="ProjectId" id="1RG6hla7KVlqchJ5IQE9QxXRkYe" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="forfun" type="b2602c69:ProjectViewProjectNode" />
-              <item name="forfun" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="forfun" type="b2602c69:ProjectViewProjectNode" />
-              <item name="forfun" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -112,19 +58,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Application.ForFunHR">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="ForFun" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ForFun" />
       <module name="forfun" />
@@ -132,16 +66,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ForFunHR" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ForFunHR" />
+    <configuration name="ForFunSSS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ForFunSSS" />
       <module name="forfun" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="forfun" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">
+      <module name="forfun" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.ForFun" />
+      <item itemvalue="Application.ForFunSSS" />
+      <item itemvalue="Application.Unnamed" />
+      <item itemvalue="Application.Main" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ForFunHR" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.ForFunSSS" />
         <item itemvalue="Application.ForFun" />
       </list>
     </recent_temporary>
@@ -163,86 +117,69 @@
       <workItem from="1569719886312" duration="623000" />
       <workItem from="1571010512570" duration="345000" />
       <workItem from="1571010886585" duration="2893000" />
+      <workItem from="1586297125478" duration="3172000" />
     </task>
     <servers />
   </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7012000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15245202" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32936078" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info active="true" anchor="bottom" id="Event Log" order="11" side_tool="true" visible="true" weight="0.32936078" />
-      <window_info anchor="bottom" id="Messages" order="12" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Database" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Maven" order="6" />
-      <window_info anchor="right" id="Capture Analysis" order="7" />
-      <window_info anchor="right" id="Palette&#9;" order="8" />
-    </layout>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="360" y="193" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586297325724">
+      <screen x="0" y="23" width="1792" height="1017" />
+    </state>
+    <state x="360" y="193" key="#com.intellij.execution.impl.EditConfigurationsDialog/-79.-1057.1920.1057/0.23.1792.1017@0.23.1792.1017" timestamp="1586297325724" />
+    <state x="745" y="438" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1586297206501">
+      <screen x="0" y="23" width="1792" height="1017" />
+    </state>
+    <state x="745" y="438" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/-79.-1057.1920.1057/0.23.1792.1017@0.23.1792.1017" timestamp="1586297206501" />
+    <state width="875" height="341" key="GridCell.Tab.0.bottom" timestamp="1586301717725">
+      <screen x="0" y="23" width="1792" height="1017" />
+    </state>
+    <state width="875" height="341" key="GridCell.Tab.0.bottom/-79.-1057.1920.1057/0.23.1792.1017@0.23.1792.1017" timestamp="1586301717725" />
+    <state width="875" height="341" key="GridCell.Tab.0.center" timestamp="1586301717724">
+      <screen x="0" y="23" width="1792" height="1017" />
+    </state>
+    <state width="875" height="341" key="GridCell.Tab.0.center/-79.-1057.1920.1057/0.23.1792.1017@0.23.1792.1017" timestamp="1586301717724" />
+    <state width="875" height="341" key="GridCell.Tab.0.left" timestamp="1586301717724">
+      <screen x="0" y="23" width="1792" height="1017" />
+    </state>
+    <state width="875" height="341" key="GridCell.Tab.0.left/-79.-1057.1920.1057/0.23.1792.1017@0.23.1792.1017" timestamp="1586301717724" />
+    <state width="875" height="341" key="GridCell.Tab.0.right" timestamp="1586301717725">
+      <screen x="0" y="23" width="1792" height="1017" />
+    </state>
+    <state width="875" height="341" key="GridCell.Tab.0.right/-79.-1057.1920.1057/0.23.1792.1017@0.23.1792.1017" timestamp="1586301717725" />
+    <state width="875" height="341" key="GridCell.Tab.1.bottom" timestamp="1586301717726">
+      <screen x="0" y="23" width="1792" height="1017" />
+    </state>
+    <state width="875" height="341" key="GridCell.Tab.1.bottom/-79.-1057.1920.1057/0.23.1792.1017@0.23.1792.1017" timestamp="1586301717726" />
+    <state width="875" height="341" key="GridCell.Tab.1.center" timestamp="1586301717726">
+      <screen x="0" y="23" width="1792" height="1017" />
+    </state>
+    <state width="875" height="341" key="GridCell.Tab.1.center/-79.-1057.1920.1057/0.23.1792.1017@0.23.1792.1017" timestamp="1586301717726" />
+    <state width="875" height="341" key="GridCell.Tab.1.left" timestamp="1586301717725">
+      <screen x="0" y="23" width="1792" height="1017" />
+    </state>
+    <state width="875" height="341" key="GridCell.Tab.1.left/-79.-1057.1920.1057/0.23.1792.1017@0.23.1792.1017" timestamp="1586301717725" />
+    <state width="875" height="341" key="GridCell.Tab.1.right" timestamp="1586301717726">
+      <screen x="0" y="23" width="1792" height="1017" />
+    </state>
+    <state width="875" height="341" key="GridCell.Tab.1.right/-79.-1057.1920.1057/0.23.1792.1017@0.23.1792.1017" timestamp="1586301717726" />
+    <state x="679" y="455" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1586299844579">
+      <screen x="0" y="23" width="1792" height="1017" />
+    </state>
+    <state x="679" y="455" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-79.-1057.1920.1057/0.23.1792.1017@0.23.1792.1017" timestamp="1586299844578" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/ForFunHR.java</url>
-          <line>26</line>
-          <properties />
+          <line>25</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/ForFunHR.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ForFun.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="13" selection-start-column="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ForFun143.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="20" column="23" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
   </component>
   <component name="masterDetails">
     <states>
