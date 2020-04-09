@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="114a6a40-7e21-4888-adb8-9853f71fdf97" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ForFunSSS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/forfun/ForFun.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/forfun/ForFun.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/forfun/ForFunHR$TreeNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/forfun/ForFunHR$TreeNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/forfun/ForFunHR.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/forfun/ForFunHR.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ForFunHR.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ForFunHR.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ForFunSSS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ForFunSSS.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,9 +81,9 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.Unnamed" />
       <item itemvalue="Application.ForFun" />
       <item itemvalue="Application.ForFunSSS" />
-      <item itemvalue="Application.Unnamed" />
       <item itemvalue="Application.Main" />
     </list>
     <recent_temporary>
@@ -118,6 +112,7 @@
       <workItem from="1571010512570" duration="345000" />
       <workItem from="1571010886585" duration="2893000" />
       <workItem from="1586297125478" duration="3172000" />
+      <workItem from="1586391410802" duration="1430000" />
     </task>
     <servers />
   </component>
@@ -169,6 +164,10 @@
       <screen x="0" y="23" width="1792" height="1017" />
     </state>
     <state x="679" y="455" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-79.-1057.1920.1057/0.23.1792.1017@0.23.1792.1017" timestamp="1586299844578" />
+    <state x="561" y="248" width="670" height="676" key="search.everywhere.popup" timestamp="1586393200800">
+      <screen x="0" y="23" width="1792" height="1017" />
+    </state>
+    <state x="561" y="248" width="670" height="676" key="search.everywhere.popup/-79.-1057.1920.1057/0.23.1792.1017@0.23.1792.1017" timestamp="1586393200800" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

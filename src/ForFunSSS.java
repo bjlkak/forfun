@@ -5,6 +5,12 @@ public class ForFunSSS {
 
     public ForFunSSS() {};
 
+    public class ListNode {
+      int val;
+      ListNode next;
+      ListNode(int x) { val = x; }
+    }
+
     public int maxProfit(int[] prices) {
         int profit = 0;
         boolean buy = true;
@@ -50,5 +56,32 @@ public class ForFunSSS {
         }
 
         return map.values().stream().collect(Collectors.toList());
+    }
+
+    public int countElements(int[] arr) {
+        Set<Integer> set = new HashSet<>();
+
+        Arrays.stream(arr).forEach(c -> set.add(c));
+
+        int count = 0;
+        for(int i = 0; i < arr.length; i++) {
+            if(set.contains(arr[i]+1)) count++;
+        }
+        return count;
+    }
+
+    public ListNode middleNode(ListNode head) {
+        if(head == null) return null;
+
+        ListNode fast = head;
+        ListNode slow = head;
+
+        while(fast != null) {
+            if(slow.next != null) slow = slow.next;
+            if(fast.next != null) fast = fast.next;
+            if(fast.next != null) fast = fast.next;
+        }
+
+        return slow;
     }
 }
