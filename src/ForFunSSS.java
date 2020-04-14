@@ -11,6 +11,13 @@ public class ForFunSSS {
       ListNode(int x) { val = x; }
     }
 
+    public class TreeNode {
+       int val;
+       TreeNode left;
+       TreeNode right;
+       TreeNode(int x) { val = x; }
+    }
+
     public int maxProfit(int[] prices) {
         int profit = 0;
         boolean buy = true;
@@ -83,5 +90,49 @@ public class ForFunSSS {
         }
 
         return slow;
+    }
+
+    public boolean backspaceCompare(String S, String T) {
+        if(S == null || T == null) return false;
+        if(S.equals(T)) return true;
+
+        int count = 0;
+        String s = "";
+        for(int i = S.length() - 1; i >= 0; i--) {
+            if(S.charAt(i) == '#') count++;
+            else {
+                if(count == 0) s =  S.charAt(i) + s;
+                else count--;
+            }
+        }
+
+        count = 0;
+        String t = "";
+        for(int i = T.length() - 1; i >= 0; i--) {
+            if(T.charAt(i) == '#') count++;
+            else {
+                if(count == 0) t =  T.charAt(i) + t;
+                else count--;
+            }
+        }
+
+        return s.equals(t);
+    }
+
+    Integer max = 0;
+    public int diameterOfBinaryTree(TreeNode root) {
+        getLength(root);
+        return max;
+    }
+
+    private int getLength(TreeNode root) {
+        if(root == null) return 0;
+
+        int l = getLength(root.left);
+        int r = getLength(root.right);
+
+        max = Math.max(l+r, max);
+
+        return Math.max(l,r) + 1;
     }
 }
