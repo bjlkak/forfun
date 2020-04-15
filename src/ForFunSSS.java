@@ -135,4 +135,18 @@ public class ForFunSSS {
 
         return Math.max(l,r) + 1;
     }
+
+    public int lastStoneWeight(int[] stones) {
+        if(stones.length == 1) {
+            return stones[0];
+        }
+        Arrays.sort(stones);
+
+        int i = stones.length - 1;
+        int r = stones[i] - stones[i-1];
+        stones[i-1] = r;
+
+        stones = Arrays.copyOfRange(stones, 0, i);
+        return lastStoneWeight(stones);
+    }
 }
