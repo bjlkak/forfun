@@ -5,6 +5,8 @@ public class Main {
 
         //System.out.println(max.groupAnagrams(new String[]{"eat", "tea", "tan", "ate", "nat", "bat"}));
 
-        System.out.println(max.lastStoneWeight((new int[]{2,7,4,1,8,1})));
+        //System.out.println(max.lastStoneWeight((new int[]{2,7,4,1,8,1})));
+
+        //System.out.println(max.stringShift("abcdafsdf", new int[][]{{1,1},{1,1},{0,2},{1,3}}));
     }
 }

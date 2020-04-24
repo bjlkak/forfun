@@ -14,6 +14,38 @@ public class ForFunHR {
         System.out.println(rob(t));
     }
 
+    private static int monotoneIncreasingDigits(int n) {
+        char[] nums = String.valueOf(n).toCharArray();
+
+        boolean nines = false;
+        for(int i = 0; i < nums.length; i++) {
+            if(nines) {
+                nums[i] = '9';
+            }
+            else if (i < nums.length -1 && nums[i] > nums[i+1]) {
+                nines = true;
+                char t =(char)(nums[i] - 1);
+
+                if(i > 0 && t < nums[i-1]) {
+                    nums[i] = '9';
+                    nums[i-1] = (char)(nums[i-1] - 1);
+
+                    for (int j = i - 1; j > 0 ; j--) {
+                        if(nums[j] < nums[j-1]) {
+                            nums[j] = '9';
+                            nums[j-1] = (char)(nums[j-1] - 1);
+                        }
+                    }
+                }
+                else {
+                    nums[i] = t;
+                }
+            }
+        }
+
+        return Integer.parseInt(new String(nums));
+    }
+
  public static class TreeNode {
    int val;
    TreeNode left;
@@ -39,5 +71,53 @@ public class ForFunHR {
         result[1] = Math.max(lefts[1], lefts[0]) + Math.max(rights[0], rights[1]);
 
         return result;
+    }
+
+    public class ListNode {
+        int val;
+        ListNode next;
+        ListNode(int x) { val = x; }
+    }
+
+    public void reorderList(ListNode head) {
+        if(head == null) return;
+
+        ListNode slow = head;
+        ListNode fast = head.next;
+        while(fast != null && slow != null) {
+            if(fast.next != null) {
+                fast = fast.next.next;
+            }
+            else {
+                break;
+            }
+            slow = slow.next;
+        }
+
+        ListNode rev = reverse(slow, null);
+        ListNode temp = head;
+
+        while(rev != null && temp != null) {
+            ListNode t = temp.next;
+            temp.next = rev;
+            ListNode r = rev.next;
+            rev.next = t;
+
+            temp = t;
+            rev = r;
+
+        }
+
+    }
+
+    private ListNode reverse(ListNode head, ListNode parent) { //2 , 1 ->
+        ListNode temp = head.next; // null
+        head.next = parent; //1->null
+
+        if(temp == null) {
+            return head;
+        }
+
+        return reverse(temp,head);
     }
 }

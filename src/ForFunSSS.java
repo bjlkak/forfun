@@ -149,4 +149,28 @@ public class ForFunSSS {
         stones = Arrays.copyOfRange(stones, 0, i);
         return lastStoneWeight(stones);
     }
+
+    public String stringShift(String s, int[][] shift) {
+        int sum = 0;
+        for(int i[] : shift) {
+            int count = i[1];
+
+            if(i[0] == 0) sum -= count;
+            else sum += count;
+        }
+
+        sum = sum % s.length();
+        if(sum > 0) {
+            String s1 = s.substring(s.length()-sum);
+            String s2 = s.substring(0, s.length()-sum);
+            s = s1 + s2;
+        }
+        else if (sum < 0) {
+            String s1 = s.substring(0, -sum);
+            String s2 = s.substring(-sum);
+            s = s2 + s1;
+        }
+
+        return s;
+    }
 }
