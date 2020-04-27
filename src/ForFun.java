@@ -18,34 +18,55 @@ public class ForFun {
         return output;
     }
 
-    public boolean checkValidString(String s) {
-        int o = 0, w = 0;
+    public int numIslands(char[][] grid) {
+        int x = grid.length, y = grid[0].length;
+        boolean[][] visited = new boolean[x][y];
 
-        for(int i = 0; i < s.length(); i++) {
-            char ch = s.charAt(i);
-
-            switch (ch) {
-                case '(': o++; break;
-                case ')': o--; break;
-                case '*': w++; break;
-            }
-
-            if(o < 0) {
-                w--;
-                o++;
-                if(w < 0)
-                    return false;
+        int count = 0;
+        for(int i = 0; i < x; i++) {
+            for(int j = 0; j < y; j++) {
+                if(!visited[i][j] && grid[i][j] == '1') {
+                    visited = visitIsland(visited, grid, i, j);
+                    count++;
+                }
             }
         }
-        if(o > 0) {
-            if(o - w > 0)
-                return false;
-        }
-        else if(o < 0) {
-            if(o + w < 0)
-                return false;
+
+        return count;
+    }
+    private boolean[][] visitIsland(boolean visited[][], char[][] grid, int i, int j) {
+        if (grid[i][j] == '0' || visited[i][j]) return visited;
+
+        visited[i][j] = true;
+
+        if(i-1 >= 0) visited = visitIsland(visited, grid, i-1, j);
+        if(j-1 >= 0) visited = visitIsland(visited, grid, i, j-1);
+        if(i+1 < grid.length) visited = visitIsland(visited, grid, i+1, j);
+        if(j+1 < grid[0].length) visited = visitIsland(visited, grid, i, j+1);
+
+        return visited;
+    }
+
+    public int minPathSum(int[][] grid) {
+        if(grid.length == 0) return 0;
+
+        int sum = 0;
+
+        return getSum(grid, sum, 0, 0);
+    }
+    private int getSum(int[][] grid, int sum, int x, int y) {
+        sum += grid[x][y];
+        if(x == grid.length - 1 && y == grid[0].length - 1) {
+            return sum;
         }
 
-        return true;
+        if(x == grid.length - 1) {
+            return getSum(grid, sum, x, y+1);
+        }
+        if(y == grid[0].length - 1) {
+            return getSum(grid, sum, x+1, y);
+        }
+
+        return Math.min(getSum(grid, sum, x+1, y), getSum(grid, sum, x, y+1));
     }
 }
