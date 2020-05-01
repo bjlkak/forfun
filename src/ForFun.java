@@ -14,7 +14,7 @@ public class ForFun {
             this.right = right;
         }
     }
-    
+
     public int[] productExceptSelf(int[] nums) {
 
         int x = 1;

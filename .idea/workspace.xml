@@ -3,14 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="114a6a40-7e21-4888-adb8-9853f71fdf97" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/forfun/ForFun.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/forfun/ForFun.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/forfun/ForFun143$ListNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/forfun/ForFun143.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/forfun/ForFunHR$TreeNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/forfun/ForFunHR$TreeNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/forfun/ForFunHR.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/forfun/ForFunHR.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/forfun/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/forfun/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ForFun.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ForFun.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,7 +106,7 @@
       <workItem from="1571010512570" duration="345000" />
       <workItem from="1571010886585" duration="2893000" />
       <workItem from="1586297125478" duration="3172000" />
-      <workItem from="1586391410802" duration="17709000" />
+      <workItem from="1586391410802" duration="18245000" />
     </task>
     <servers />
   </component>
