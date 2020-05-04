@@ -146,4 +146,57 @@ public class ForFun {
             }
         }
     }
+
+    public boolean canJump(int[] nums) {
+        if(nums.length == 1) return true;
+        int jump = nums[0];
+        for(int i = 1; i < nums.length; i++) {
+            jump--;
+            if(jump+i >= nums.length-1)
+                return true;
+            if(jump < 0)
+                break;
+
+            if(nums[i] > jump) {
+                jump = nums[i];
+            }
+        }
+
+        return false;
+    }
+
+    public int maximalSquare(char[][] matrix) {
+        int rows = matrix.length, cols = rows > 0 ? matrix[0].length : 0;
+        int[][] dp = new int[rows + 1][cols + 1];
+        int maxsqlen = 0;
+        for (int i = 1; i <= rows; i++) {
+            for (int j = 1; j <= cols; j++) {
+                if (matrix[i-1][j-1] == '1'){
+                    dp[i][j] = Math.min(Math.min(dp[i][j - 1], dp[i - 1][j]), dp[i - 1][j - 1]) + 1;
+                    maxsqlen = Math.max(maxsqlen, dp[i][j]);
+                }
+            }
+        }
+        return maxsqlen * maxsqlen;
+    }
+
+    int max = Integer.MIN_VALUE;
+    public int maxPathSum(TreeNode t) {
+        max = Integer.MIN_VALUE;
+
+        int sum = getSum(t);
+
+        return Math.max(sum, max);
+    }
+    private int getSum(TreeNode t) {
+        if(t == null) return 0;
+
+        max = t.val > max ? t.val : max;
+
+        int sum = getSum(t.left) + getSum(t.right) + t.val;
+
+        max = sum > max ? sum : max;
+
+        return sum;
+    }
 }

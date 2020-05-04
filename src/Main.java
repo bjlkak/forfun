@@ -10,6 +10,8 @@ public class Main {
         //System.out.println(max.stringShift("abcdafsdf", new int[][]{{1,1},{1,1},{0,2},{1,3}}));
 
         var ff = new ForFun();
-        System.out.println(ff.search(new int[]{1,3}, 3));
+        //System.out.println(ff.search(new int[]{1,3}, 3));
+
+        System.out.println(ff.maximalSquare(new char[][]{{'1','1','1','1','1'},{'1','1','1','1','1'},{'1','1','1','1','1'},{'1','1','1','1','1'}}));
     }
 }
